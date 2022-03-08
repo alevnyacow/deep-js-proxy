@@ -21,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
     "del-cli": "^4.0.1",
@@ -38,5 +39,8 @@
   "bugs": {
     "url": "https://github.com/alevnyacow/deep-js-proxy/issues"
   },
-  "homepage": "https://github.com/alevnyacow/deep-js-proxy#readme"
+  "homepage": "https://github.com/alevnyacow/deep-js-proxy#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
 }
