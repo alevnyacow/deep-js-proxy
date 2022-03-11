@@ -16,6 +16,7 @@ test("Plain object", () => {
     proxiedTestObject["testField"] += 1;
 
     expect(testCounter).toBe(1);
+    expect(proxiedTestObject["testField"]).toBe(2);
 });
 
 test("Nested object", () => {
